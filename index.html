@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button:hover, button:active, button:focus {
+            border: 1px solid white !important;
+            cursor:pointer;
+        }
+        .active {
+          border-color: 1px solid white;
+        }
+        .selected{
+            border: 1px solid white !important;
+        }
+        .btn {
+             transform: skewX(-15deg);
+        }
+    </style>
+</head>
+<body>
+    <img id="output"style="position: relative;">
+        <button id="btn1" style="display:none !important; border:none;"></button>
+        <button id="btn2" style="display:none !important; border:none;"></button>
+        <button id="home" style="display:none !important; border:none;"></button>
+    </img>
+    <script src="app.js"></script>
+</body>
+</html>
